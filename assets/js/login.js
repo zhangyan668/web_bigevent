@@ -55,7 +55,7 @@ $(function () {
                 if (res.status === 0) {
                     // 将登录成功得到的 token 字符串，保存到 localStorage 中
                     localStorage.setItem('token', res.token)
-                    localStorage.href = '/index.html'
+                    location.href = '/index.html'
                 }
             }
         })
